@@ -24,4 +24,5 @@ jobs:
       - name: Run checks
         run: |
           python ./sanity-checks/check-docarray.py
+          jina hub push --private --force-update SanityCheck --secret sanity@Check ./sanity-checks/executors/SanityCheck
           python ./sanity-checks/check-executor-pull.py
