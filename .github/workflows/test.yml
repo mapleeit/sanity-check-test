@@ -9,8 +9,8 @@ jobs:
   sanity-check:
     runs-on: ubuntu-latest
 
-    env:
-      JINA_AUTH_TOKEN: ${{ secrets.JINA_AUTH_TOKEN}}
+    # env:
+    #   JINA_AUTH_TOKEN: ${{ secrets.JINA_AUTH_TOKEN}}
 
     steps:
       - uses: actions/checkout@v2
