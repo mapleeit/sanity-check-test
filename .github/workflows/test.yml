@@ -25,5 +25,3 @@ jobs:
         run: |
           python ./sanity-checks/check-docarray.py
           python ./sanity-checks/check-executor-pull.py
-          python ./sanity-checks/check-artifact.py
-          python ./sanity-checks/check-user-api.py
