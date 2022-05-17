@@ -21,7 +21,6 @@ def run_flow(f):
                 Document(text="dddddd bbbb"),
             ],
         )
-        f.close()
 
 
 run_flow(prod_demo('jinahub://SanityCheck:sanity@Check'))
