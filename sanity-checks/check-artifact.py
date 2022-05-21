@@ -2,7 +2,7 @@ import json
 import requests
 import os
 
-_API_HOST = 'https://apihubble.jina.ai'
+_API_HOST = 'https://api.hubble.jina.ai'
 _AUTH_TOKEN = os.environ['JINA_AUTH_TOKEN']
 
 
