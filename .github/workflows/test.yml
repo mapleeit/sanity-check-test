@@ -28,5 +28,4 @@ jobs:
         env:
           JINA_HUBBLE_REGISTRY: https://apihubble.staging.jina.ai
         run: |
-          jina hub push --private --secret sanity@Check ./sanity-checks/executors/SanityCheck
           python ./sanity-checks/check-executor-pull.py
