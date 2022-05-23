@@ -25,7 +25,5 @@ jobs:
           python -m pip install docarray[common]
           python -m pip install jina
       - name: Run checks
-        env:
-          JINA_HUBBLE_REGISTRY: https://apihubble.staging.jina.ai
         run: |
           python ./sanity-checks/check-executor-pull.py
