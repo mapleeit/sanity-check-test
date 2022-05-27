@@ -26,4 +26,5 @@ jobs:
           python -m pip install jina
       - name: Run checks
         run: |
+          jina hub push --private --force-update SanityCheck --secret sanity@Check ./sanity-checks/executors/SanityCheck
           python ./sanity-checks/check-executor-pull.py
